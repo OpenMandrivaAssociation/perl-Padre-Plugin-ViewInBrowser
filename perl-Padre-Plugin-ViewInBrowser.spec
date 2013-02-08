@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	4
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
@@ -19,7 +19,8 @@ BuildRequires:	perl(Module::Build::Compat)
 BuildArch:	noarch
 
 %description
-Basically it's a shortcut for Wx::LaunchDefaultBrowser( $main->current->filename ).
+Basically it's a shortcut for 
+Wx::LaunchDefaultBrowser( $main->current->filename ).
 
 %prep
 %setup -q -n %{upstream_name}-%{upstream_version}

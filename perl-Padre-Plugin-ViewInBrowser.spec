@@ -8,7 +8,7 @@ Release:	6
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Summary:	View selected doc in browser for Padre
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Padre/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
